@@ -1,4 +1,4 @@
-# Zaryab Gohar
+# Hey, I'm Zaryab
 
 Full-stack developer building software for healthcare — currently Cusp, a modern alternative to Dentally, alongside work on making AI practical and affordable in medicine.
 
