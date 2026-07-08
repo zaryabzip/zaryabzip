@@ -35,4 +35,4 @@ Testing and tooling: pytest, Vitest, Playwright, Docker, GitHub Actions
 I'm open to freelance and contract work — web apps, AI/ML, or a combination of the two. If you have a project you'd like built, or an idea you want to get started, I'd be glad to hear about it.
 
 - Email: zaryab.gohar.17@gmail.com
-- LinkedIn: [url>](https://www.linkedin.com/in/zaryab-gohar-42178b282/)
+- LinkedIn: [Profile](https://www.linkedin.com/in/zaryab-gohar-42178b282/)
