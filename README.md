@@ -1,38 +1,45 @@
-# Hey, I'm Zaryab
+# Zaryab Gohar
 
-Full-stack developer building software for healthcare — currently Cusp, a modern alternative to Dentally — alongside research on large language models and their reasoning.
+Full-stack developer in Lahore, Pakistan. I build clinical software for dental practices, and I research how far you can trust what a language model says about its own reasoning.
 
-## About
+## Building
 
-I'm a computer science student at LUMS. I build across the stack: React/Next.js and TypeScript on the front end, FastAPI and Python on the back, with PostgreSQL, on a wide variety of platforms like Railway, Vercel, Supabase, AWS, Azure.
+**Cusp** — a modern alternative to Dentally. Cloud practice-management for UK dental practices: patient records, tooth charting, appointment diary, billing, NHS claims. React 19 and TypeScript up front, FastAPI and PostgreSQL behind. Built end to end, not one slice of it.
 
-My thesis is on chain-of-thought monitorability: how much a model's written reasoning actually tells us about the computation behind it, and what happens to that oversight when reasoning becomes implicit rather than spelled out in tokens. The rest of my time goes to applied AI — agentic pipelines for real clinical workflows, where a wrong answer has consequences. I treat correctness and testing as first-class; patient data isn't the place to cut corners.
+Clinical software punishes the habits you get away with elsewhere. A dropped write in an e-commerce cart is an annoyance; in a treatment history it's a medico-legal problem. So the tests came first and the schema got argued about twice.
 
-## What I'm working on
+## Asking
 
-- **Cusp** — patient records, tooth charting, appointment diary, billing, and NHS claims.
-- **Thesis: CoT monitorability** — measuring when stated reasoning is faithful to the underlying process, and how implicit chain-of-thought erodes the assumptions monitoring depends on.
-- **Agentic pipelines in healthcare** — multi-step retrieval, tool use, and structured evidence for clinical tasks, with evaluation built to catch the failure modes rather than hide them.
+My thesis is on **chain-of-thought monitorability** — how much a model's written reasoning tells us about the computation that produced it, and what's left of that oversight once the reasoning goes implicit rather than into tokens. Reading a model's scratchpad is either genuine oversight or elaborate theatre, and which one it is depends on facts we haven't pinned down yet.
 
-## Technologies
+The applied version of the same instinct: agentic pipelines for healthcare, where multi-step retrieval and tool use produce an answer nobody can trace. Building those is easy. Knowing when they've quietly failed is the actual work.
 
-**Web:** React 19, Next.js, TypeScript, Tailwind, shadcn/ui, TanStack Query
-**Backend:** Python, FastAPI, SQLAlchemy, PostgreSQL, Supabase
-**AI and ML:** PyTorch, Hugging Face Transformers, PEFT/LoRA, LangChain, FAISS, pandas, scikit-learn
-**Medical imaging:** BioViL-T, CheXbert, chest radiography, RAG
-**Testing and tooling:** pytest, Vitest, Playwright, Docker, GitHub Actions
+## Selected work
 
-## Projects
+**Healthcare**
+- **Cusp** — dental practice-management platform · React, FastAPI, PostgreSQL · *private client work*
+- **[Radiology report generation](https://github.com/zaryabzip/iu-cxr-clfir-final)** — retrieval-augmented chest X-ray reporting on IU-Xray. Image-first drafting, a fine-tuned BioViL-T retrieval adapter, CheXbert evidence extraction · PyTorch, FAISS
 
-- **Cusp** — a modern alternative to Dentally: cloud practice-management for UK dental practices. React, FastAPI, PostgreSQL. (Private client work.)
-- **[Radiology report generation](https://github.com/zaryabzip/iu-cxr-clfir-final)** — a retrieval-augmented pipeline that drafts chest X-ray reports on the IU-Xray dataset: image-first drafting, a fine-tuned BioViL-T retrieval adapter, CheXbert evidence extraction, and an LLM composing the final report. PyTorch, BioViL-T, FAISS.
-- **Cross-lingual news summarization (Urdu and English)** — a bilingual summarizer built by fine-tuning a compact language model with PEFT/LoRA. Python, Hugging Face, PEFT/LoRA.
-- **Event venue booking system** — a booking platform for an events venue: public landing page, a customer booking flow, and an admin dashboard. Next.js, Supabase. (Private client work.)
-- **LUMS campus event app** — a full-stack Android app with organizer and student roles: event listing, ticketing, and integrated payments. Android (Java), REST APIs.
+**Models**
+- **Urdu–English summarization** — bilingual news summarizer, PEFT/LoRA fine-tune of a compact model · Hugging Face
 
-## Work with me
+**Earlier**
+- **Event venue booking** — landing page, booking flow, admin dashboard · Next.js, Supabase · *private client work*
+- **LUMS campus events** — Android app with organizer and student roles, ticketing and payments · Java, REST APIs
 
-I'm open to freelance and contract work — web apps, AI/ML, or a combination of the two. If you have a project you'd like built, or an idea you want to get started, I'd be glad to hear about it.
+## Stack
 
-- Email: zaryab.gohar.17@gmail.com
-- GitHub: github.com/zaryabzip
+|  |  |
+|---|---|
+| **Web** | <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind" height="36" /> |
+| **Backend** | <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,supabase" height="36" /> |
+| **AI / ML** | <img src="https://skillicons.dev/icons?i=pytorch,sklearn" height="36" /> |
+| **Infra** | <img src="https://skillicons.dev/icons?i=docker,githubactions,aws,azure" height="36" /> |
+
+Also: `shadcn/ui` `TanStack Query` `SQLAlchemy` `Transformers` `PEFT/LoRA` `LangChain` `FAISS` `BioViL-T` `pytest` `Vitest` `Playwright`
+
+## Elsewhere
+
+Open to freelance and contract work — web, AI/ML, or the overlap.
+
+[github.com/zaryabzip](https://github.com/zaryabzip) · [LinkedIn](https://www.linkedin.com/in/zaryab-gohar-42178b282/) · zaryab.gohar.17@gmail.com
