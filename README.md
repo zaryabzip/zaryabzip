@@ -42,4 +42,4 @@ Also: `shadcn/ui` `TanStack Query` `SQLAlchemy` `Transformers` `PEFT/LoRA` `Lang
 
 Open to freelance and contract work — web, AI/ML, or the overlap.
 
-[github.com/zaryabzip](https://github.com/zaryabzip) · [LinkedIn](https://www.linkedin.com/in/zaryab-gohar-42178b282/) · zaryab.gohar.17@gmail.com
+[github.com/zaryabzip](https://github.com/zaryabzip) · zaryab.gohar.17@gmail.com
