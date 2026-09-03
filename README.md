@@ -6,9 +6,7 @@ Full-stack developer building software for healthcare — currently Cusp, a mode
 
 I'm a computer science student at LUMS. I build across the stack: React/Next.js and TypeScript on the front end, FastAPI and Python on the back, with PostgreSQL and Supabase underneath.
 
-Most of my focus lately is on applied AI — getting real value out of small, fine-tuned, locally-run models rather than expensive hosted APIs. A lot of that work sits in medical imaging and radiology, using retrieval-augmented generation to keep models grounded in real clinical data.
-
-Because this is healthcare, I treat correctness and testing as first-class — patient data isn't the place to cut corners. Based in Lahore, Pakistan.
+Most of my focus lately is on applied AI in Healthcare and beyond. I treat correctness and testing as first-class — patient data isn't the place to cut corners
 
 ## What I'm working on
 
