@@ -36,4 +36,3 @@ I'm open to freelance and contract work — web apps, AI/ML, or a combination of
 
 - Email: zaryab.gohar.17@gmail.com
 - GitHub: github.com/zaryabzip
-- LinkedIn: [Profile](https://www.linkedin.com/in/zaryab-gohar-42178b282/)
